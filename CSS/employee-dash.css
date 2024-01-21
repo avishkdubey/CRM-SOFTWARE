@@ -1,0 +1,345 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Your existing CSS styles here */
+
+.navbar {
+    height: 3.5rem;
+}
+
+.upper-option a {
+    color: black;
+}
+
+.main__title {
+    display: flex;
+    align-items: center;
+}
+
+.main__title>img {
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.main__greeting>h1 {
+    font-size: 24px;
+    color: #2e4a66;
+    margin-bottom: 5px;
+}
+
+.main__greeting>p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #a5aaad;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.menu-icon {
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-icon:hover .dropdown-menu {
+    display: block;
+}
+
+.menu-icon:hover {
+    font-size: 1.2rem;
+}
+
+.menu-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.menu-item:hover {
+    background-color: #ddd;
+}
+
+#quick-link {
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.icon {
+    color: #835dd4;
+}
+
+#card:hover {
+    background-color: rgb(95, 95, 255);
+}
+
+#card:hover * {
+    color: white;
+}
+
+/* Your existing CSS styles here */
+
+.custom-select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    /* Make the select element full width by default */
+    background-color: #fff;
+    color: #333;
+    outline: none;
+}
+
+/* Style the dropdown arrow */
+.custom-select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.custom-select2 {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    /* Make the select element full width by default */
+    background-color: #fff;
+    color: #333;
+    outline: none;
+}
+
+/* Style the dropdown arrow */
+.custom-select2::after {
+    content: "\25BC";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+    .custom-select {
+        width: 17.2rem;
+    }
+
+    .req {
+        width: 18.6rem;
+    }
+
+    .custom-select2 {
+        width: 10rem;
+    }
+}
+
+.custom-select-form {
+    display: inline-block;
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+}
+
+.custom-select2 {
+    width: 200px;
+    /* Set the desired width for the select elements */
+}
+
+td a {
+    text-decoration: none;
+}
+
+
+
+a {
+    color: #7ea9e6;
+    text-decoration: none;
+}
+
+#card-icon :hover {
+    font-size: 20rem;
+}
+
+.progress-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    width: 20%;
+    /* Initial progress (2 out of 10 tasks) */
+    height: 100%;
+    background-color: #585858;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.recent .card {
+    height: 15rem;
+}
+
+.drop-icon {
+    font-size: 2rem;
+    margin-top: 0.5vh;
+}
+
+#scheduled :hover .drop-icon {
+    margin-top: 0vh;
+}
+
+#scheduled1 :hover .drop-icon {
+    margin-top: 0vh;
+}
+
+#scheduled2 :hover .drop-icon {
+    margin-top: 0vh;
+}
+
+#scheduled3 :hover .drop-icon {
+    margin-top: 0vh;
+}
+
+.options ul li {
+    list-style: none;
+    color: white;
+}
+
+.options ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+ol,
+ul {
+    padding: 0;
+}
+
+.candidate li {
+    padding: 0;
+}
+
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+:root {
+    --cs: 30px;
+    --br: 20px;
+}
+
+.root {
+    display: flex;
+    height: 45vh;
+    align-items: center;
+    filter: drop-shadow(0 0 6px #313949);
+}
+
+.content {
+    position: relative;
+    margin: auto;
+    max-width: 260px;
+    border-radius: var(--br);
+    background-color: #ffffff;
+    color: #363c5f;
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    clip-path: polygon(0 0, calc(100% - var(--cs)) 0, 100% var(--cs), 100% 100%, 0 100%);
+}
+
+.content::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: var(--cs);
+    height: var(--cs);
+    background-color: #313949;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: var(--br);
+}

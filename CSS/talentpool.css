@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  height: 3.5rem;
+}
+
+.modal-dialog {
+  width: 80%;
+  min-height: calc(100vh + 5vh);
+  margin: 0;
+}
+
+.modal-content {
+  height: 100%;
+  border: none;
+  box-shadow: none;
+}
+
+/* Style the close button */
+.close {
+  font-size: 21px;
+  cursor: pointer;
+}
+
+/* Center the heading */
+h4 {
+  text-align: center;
+  color: #313949;
+}
+
+/* Style form elements */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ced;
+}
+/* Style for right-aligned modal */
+.modal-dialog.modal-dialog-right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+/* Add a background color to the right-aligned modal for better visibility */
+.modal-dialog.modal-dialog-right .modal-content {
+  background-color: #fff;
+  border-radius: 5px;
+}
